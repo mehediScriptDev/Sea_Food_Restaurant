@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from '../Components/Common/Header/Header';
 import { Outlet } from 'react-router';
-import Footer from '../Components/Common/Header/Footer/Footer';
+import Footer from '../Components/Common/Footer/Footer';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className=''>
             <Header/>
             <Outlet/>
             <Footer/>
