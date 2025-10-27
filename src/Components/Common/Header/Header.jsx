@@ -14,7 +14,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="bg-black/90 sticky w-full top-0 z-50">
+    <nav className="bg-black/40 fixed w-full top-0 z-50">
       <div className="container">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
