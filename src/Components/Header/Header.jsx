@@ -1,10 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Menu, X, ShoppingCart, User } from 'lucide-react';
 import { Link, NavLink } from 'react-router';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [colors,setColors] = useState(false);
 
+
+  useEffect(()=>{
+    const autoColorChange = () => {
+  if(window.scrollY >= 80){
+    setColors(true);
+  }
+  else{
+    setColors(false)
+  }
+  }
+  window.addEventListener('scroll',autoColorChange);
+  },[colors])
   const navLinks = [
     { name: 'HOME', path: '/' },
     { name: 'CONTACT US', path: 'contact' },
@@ -14,7 +27,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="bg-black/90 sticky w-full top-0 z-50">
+    <nav className={`sticky w-full top-0 z-50 ${colors ? 'bg-black/80' : 'bg-black'}`}>
       <div className="container">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}

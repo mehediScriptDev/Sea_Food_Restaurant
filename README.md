@@ -1,16 +1,40 @@
-# React + Vite
+# Bistro Boss - Sea Food Restaurant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern restaurant website built with React and Vite, featuring an elegant design for seafood dining experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design** - Mobile-first approach with Tailwind CSS
+- **Interactive Carousel** - Showcasing restaurant highlights
+- **Category Slider** - Browse food categories with Swiper.js
+- **Modern UI** - Clean and professional interface
+- **Fast Performance** - Built with Vite for optimal loading
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React 18, Vite
+- **Styling:** Tailwind CSS, DaisyUI
+- **Components:** React Router, Swiper.js, React Responsive Carousel
+- **Icons:** Lucide React
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/mehediScriptDev/Sea_Food_Restaurant.git
+
+# Navigate to project directory
+cd Sea_Food_Restaurant
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+This project is for educational purposes as part of Programming Hero course curriculum.
+
+---
+
+**Note:** This is a learning project where I'm implementing the design in my own way using modern React practices.
